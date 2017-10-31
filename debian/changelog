@@ -1,8 +1,0 @@
-ros-kinetic-robotis-op3 (0.1.0-1xenial) xenial; urgency=high
-
-  * added new metapackage for ROBOTIS OP3
-  * Contributors: Kayman
-
- -- Pyo <pyo@robotis.com>  Thu, 26 Oct 2017 15:00:00 -0000
-
-
