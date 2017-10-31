@@ -1,0 +1,12 @@
+Source: ros-kinetic-op3-direct-control-module
+Section: misc
+Priority: extra
+Maintainer: Pyo <pyo@robotis.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-sdk, ros-kinetic-op3-kinematics-dynamics, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-device, ros-kinetic-robotis-math, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-op3-direct-control-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-cmake-modules, ros-kinetic-dynamixel-sdk, ros-kinetic-op3-kinematics-dynamics, ros-kinetic-robotis-controller-msgs, ros-kinetic-robotis-device, ros-kinetic-robotis-math, ros-kinetic-roscpp, ros-kinetic-std-msgs
+Description: The op3_direct_control_module package
