@@ -1,0 +1,16 @@
+ros-kinetic-robotis-op3 (0.1.1-0xenial) xenial; urgency=high
+
+  * added op3_direct_control_module package
+  * Changed License from BSD to Apache 2.0
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 30 Oct 2017 15:00:00 -0000
+
+ros-kinetic-robotis-op3 (0.1.0-0xenial) xenial; urgency=high
+
+  * added new metapackage for ROBOTIS OP3
+  * Contributors: Kayman
+
+ -- Pyo <pyo@robotis.com>  Thu, 26 Oct 2017 15:00:00 -0000
+
+
