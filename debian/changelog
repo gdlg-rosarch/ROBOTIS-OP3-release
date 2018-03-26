@@ -1,0 +1,38 @@
+ros-kinetic-cm-740-module (0.2.1-0xenial) xenial; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Sun, 25 Mar 2018 15:00:00 -0000
+
+ros-kinetic-cm-740-module (0.2.0-0xenial) xenial; urgency=high
+
+  * added C++11 build option
+  * changed package.xml to use format v2
+  * refactoring to release
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Sun, 25 Mar 2018 15:00:00 -0000
+
+ros-kinetic-cm-740-module (0.1.1-0xenial) xenial; urgency=high
+
+  * fixed missing dependence
+  * Changed License from BSD to Apache 2.0
+  * Contributors: Kayman
+
+ -- Pyo <pyo@robotis.com>  Mon, 30 Oct 2017 15:00:00 -0000
+
+ros-kinetic-cm-740-module (0.1.0-0xenial) xenial; urgency=high
+
+  * cleanup the code
+  * added sensor module for cm_740
+  * added the function of recovery after reset
+  * added Tools for OP3
+  * changed directory structure
+  * splited the repository of ROBOTIS-OP3
+  * cleaned up the code
+  * changed package name : op2 -> op3
+  * Contributors: Kayman
+
+ -- Pyo <pyo@robotis.com>  Thu, 26 Oct 2017 15:00:00 -0000
+
+
