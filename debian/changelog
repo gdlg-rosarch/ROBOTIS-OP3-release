@@ -1,0 +1,18 @@
+ros-kinetic-op3-online-walking-module (0.2.1-0jessie) jessie; urgency=high
+
+  * modified preview_response to fix operator matching bug on i386 machine
+  * Contributors: SCH
+
+ -- Pyo <pyo@robotis.com>  Sun, 25 Mar 2018 15:00:00 -0000
+
+ros-kinetic-op3-online-walking-module (0.2.0-0jessie) jessie; urgency=high
+
+  * first release of op3_online_walking_module package
+  * added LICENSE
+  * deleted op3_optimization
+  * deleted debug print
+  * Contributors: Kayman, Pyo, SCH
+
+ -- Pyo <pyo@robotis.com>  Sun, 25 Mar 2018 15:00:00 -0000
+
+
