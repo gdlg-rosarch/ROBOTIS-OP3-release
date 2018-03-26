@@ -1,0 +1,38 @@
+ros-kinetic-op3-walking-module (0.2.1-0xenial) xenial; urgency=high
+
+  * none
+
+ -- Pyo <pyo@robotis.com>  Sun, 25 Mar 2018 15:00:00 -0000
+
+ros-kinetic-op3-walking-module (0.2.0-0xenial) xenial; urgency=high
+
+  * added debug print
+  * changed package.xml to use format v2
+  * refactoring to release
+  * Contributors: Kayman, Pyo
+
+ -- Pyo <pyo@robotis.com>  Sun, 25 Mar 2018 15:00:00 -0000
+
+ros-kinetic-op3-walking-module (0.1.1-0xenial) xenial; urgency=high
+
+  * added missing package in find_package()
+  * added op3_walking_module_msgs in find_package() function
+  * fixed missing dependence
+  * fixed action_module bug
+  * changed License from BSD to Apache 2.0
+  * Merge branch 'feature_direct_control' of https://github.com/ROBOTIS-GIT/ROBOTIS-OP3 into feature_direct_control
+  * Contributors: Kayman, Yoshimaru Tanaka, Pyo
+
+ -- Pyo <pyo@robotis.com>  Mon, 30 Oct 2017 15:00:00 -0000
+
+ros-kinetic-op3-walking-module (0.1.0-0xenial) xenial; urgency=high
+
+  * added the function of recovery after reset
+  * deleted Hardware materials
+  * modified parameter for release
+  * changed setting for walking and dxl
+  * Contributors: Kayman
+
+ -- Pyo <pyo@robotis.com>  Thu, 26 Oct 2017 15:00:00 -0000
+
+
