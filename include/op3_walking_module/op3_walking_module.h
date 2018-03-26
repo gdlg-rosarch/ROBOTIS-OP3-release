@@ -14,7 +14,7 @@
 * limitations under the License.
 *******************************************************************************/
 
-/* Author: Kayman Jung */
+/* Author: Kayman */
 
 #ifndef OP3_WALKING_MODULE_H_
 #define OP3_WALKING_MODULE_H_
@@ -24,9 +24,9 @@
 #include <stdio.h>
 #include <math.h>
 #include <fstream>
-#include <yaml-cpp/yaml.h>
 #include <boost/thread.hpp>
-#include <Eigen/Dense>
+#include <eigen3/Eigen/Eigen>
+#include <yaml-cpp/yaml.h>
 
 #include <ros/ros.h>
 #include <ros/callback_queue.h>
@@ -35,14 +35,15 @@
 #include <sensor_msgs/Imu.h>
 #include <eigen_conversions/eigen_msg.h>
 
-#include "robotis_framework_common/motion_module.h"
-#include "robotis_math/robotis_math.h"
-#include "robotis_math/robotis_trajectory_calculator.h"
-#include "op3_kinematics_dynamics/op3_kinematics_dynamics.h"
 #include "robotis_controller_msgs/StatusMsg.h"
 #include "op3_walking_module_msgs/WalkingParam.h"
 #include "op3_walking_module_msgs/GetWalkingParam.h"
 #include "op3_walking_module_msgs/SetWalkingParam.h"
+
+#include "robotis_framework_common/motion_module.h"
+#include "robotis_math/robotis_math.h"
+#include "robotis_math/robotis_trajectory_calculator.h"
+#include "op3_kinematics_dynamics/op3_kinematics_dynamics.h"
 
 namespace robotis_op
 {
@@ -101,6 +102,8 @@ class WalkingModule : public robotis_framework::MotionModule, public robotis_fra
     WalkingReady = 3
   };
 
+  const bool DEBUG;
+
   void queueThread();
 
   /* ROS Topic Callback Functions */
@@ -144,7 +147,6 @@ class WalkingModule : public robotis_framework::MotionModule, public robotis_fra
   Eigen::MatrixXi joint_axis_direction_;
   std::map<std::string, int> joint_table_;
   int walking_state_;
-  bool debug_print_;
   int init_pose_count_;
   op3_walking_module_msgs::WalkingParam walking_param_;
   double previous_x_move_amplitude_;
